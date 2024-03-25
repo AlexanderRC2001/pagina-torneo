@@ -1,10 +1,457 @@
- img{
 
-width: 30px;
+ body{
+   position: relative;
+   margin: 0;
+   background-color: black;
+ }
+ header img{
+position: relative;
+display: inline-block;
+width: 200px;
+left: 9%;
+text-shadow: 2px 1px 2px black;
 
 
  }
-*{
+ footer{
+   position: relative;
+   
+   background-color: #162644;
 
-   border: solid red 1px; 
+   height: 200px;
+   padding-bottom: 20px;
+   width: 100%;
+   ;
+  
+ }
+ footer #logo {
+   position: absolute;
+   padding-top: 20px;
+   left:1%;
+   margin-left: 30px;
+   top: 0;
+  
+   width: 200px;
+ }
+ footer h1{
+   position: absolute;
+   padding-top: 24px;
+   top: 15%;
+   left: 1%;
+   right: 60%;
+   color: #fff;
+   font-size: 11px;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   margin-left: 30px;
+   margin-top: 20px;
+   color:#e2c55b;
+ }
+ footer #con1{
+   position: absolute;
+   color: #fff;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: 500;
+   font-size: 9px;
+   top: 18%;
+   left:1%;
+   right: 60%;
+   margin-left: 30px;
+   margin-top: 6%;
+   padding-bottom: 40px;
+ }
+
+ footer h2{
+  color: #e2c55b;
+
+  position: absolute;
+  padding-top: 10px;
+  top: 0%;
+  left: 32%;
+  right: 50%;
+  color: #fff;
+  font-size: 12px;
+
+  color:#e2c55b;
+  margin-bottom: 2px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-left: 45px;
+
+ }
+ footer #con2{
+
+  position: absolute;
+  
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 4px;
+  top: 0%;
+  left:32%;
+  right: 50%;
+ 
+  margin-top: 3%;
+  padding-bottom: 2px;
+  margin-left: 45px;
+  
+ }
+ footer #con2 a{
+ color: #fff;
+ font-size: 9px;
+ text-decoration:none;
+ 
+ }
+
+ #con2 a:hover{
+ 
+ 
+ text-decoration:underline;
+
+
+ }
+ footer h3{
+  color: #e2c55b;
+
+  position: absolute;
+  padding-top: 10px;
+  top: 0%;
+  left: 50%;
+  right: 25%;
+  color: #fff;
+  font-size: 12px;
+
+  color:#e2c55b;
+  margin-bottom: 2px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-left: 30px;
+
+ }
+ footer #con3{
+
+  position: absolute;
+  
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: 500;
+  font-size: 4px;
+  top: 0%;
+  left:50%;
+  right: 30%;
+  
+ 
+  margin-top: 3%;
+  padding-bottom: 2px;
+  margin-left: 30px;
+ }
+ footer #con3 a{
+  color: #fff;
+  font-size: 9px;
+  text-decoration:none;
+
+  }
+  
+ #con3 a:hover{
+
+ 
+ 
+  text-decoration:underline;
+ 
+ 
+  }
+  #cont{
+    position: absolute;
+   
+    width: 1250px;
+    height: 200px;
+    right: 0px;
+    left: 0;
+    top: 0;
+    margin-left: 40px;
+  }
+  footer h4{
+    color: #e2c55b;
+  
+    position: absolute;
+    padding-top: 10px;
+    top: 0%;
+    left: 70%;
+    right: 2%;
+    color: #fff;
+    font-size: 12px;
+    
+    color:#e2c55b;
+    margin-bottom: 2px;
+    padding-top: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 2px;
+  
+   }
+   footer #con4{
+    position: absolute;
+  
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-weight: 500;
+   font-size: 9px;
+   top: 17%;
+   left:70%;
+   right: 5%;
+   
+   margin-top: 3%;
+   padding-bottom: 2px;
+   color: #fff;
+   margin-left: 2px;
+   }
+   footer #cont2 {
+
+   position: absolute;
+   top: 17%;
+   left: 70%;
+   right: 2%;
+   
+   margin-top: 5px;
+   margin-left: 2px;
+   }
+   footer div img{
+
+    
+    width: 30px;
+   }
+   #link{
+    position: absolute;
+   top: 85%;
+   left: 3.2%;
+    color: #fff;
+    text-decoration: none;
+
+   }
+   #link:hover{
+    text-decoration:underline;
+   }
+
+ #cuerpoP{
+   position: relative;
+   color: rgb(255, 255, 255);
+  
+   width: 100%;
+   height: 500px;
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+  
+ }
+ #fondoc{
+   opacity: 0.8;
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 500px;
+ }
+ #logo {
+   position: absolute;
+   padding-top: 20px;
+   top:24%;
+   left: 5%;
+   bottom: 15%;
+   right: 0%;
+  width: 400px;
+ 
+ }
+ #logo img{
+
+   width: 400px;
+ }
+ #cuerpoP H1{
+   position: absolute;
+ 
+   color: #fff;
+   top:10%;
+   left: 47%;
+   bottom: 0%;
+   right: 0%;
+   padding-bottom: 0%;
+  height: 39px;
+  border-bottom: solid #fff 3px;
+  text-align: center;
+  font-weight: 500;
+  text-shadow: 2px 1px 2px black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+
+ }
+ #cuerpoP h2{
+   position: absolute;
+  
+   color: #dbdbda;
+   top: 25%;
+   left: 45%;
+   bottom: 0%;
+   right: 30%;
+   padding-bottom: 0%;
+  height: 39px;
+  
+  text-align: center;
+  font-weight: 500;
+  text-shadow: 2px 1px 2px black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 21px;
+
+ }
+ #cuerpoP h3{
+   position: absolute;
+ 
+   color: #ffffff;
+   top: 38%;
+   left: 45%;
+   bottom: 0%;
+   right: 30%;
+   padding-bottom: 0%;
+  height: 39px;
+  
+  text-align: center;
+  font-weight: 500;
+  text-shadow: 2px 1px 2px black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 21px;
+ }
+ #cuerpoP h4{
+   position: absolute;
+   
+   color: #ffffff;
+   top: 23%;
+   left: 80%;
+   bottom: 0%;
+   right: 10%;
+   padding-bottom: 0%;
+  height: 39px;
+  
+  text-align: center;
+  font-weight: 500;
+  text-shadow: 2px 1px 2px black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 21px;
+ }
+ #cuerpoP h5{
+   position: absolute;
+  
+   color: #ffffff;
+   top: 35.5%;
+   left: 80%;
+   bottom: 0%;
+   right: 10%;
+   padding-bottom: 0%;
+  height: 39px;
+  
+  text-align: center;
+  font-weight: 500;
+  text-shadow: 2px 1px 2px black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 21px;
+ }
+
+header{
+   position: fixed;
+  border-bottom: solid #fded07 2px;
+   
+   background-color: #162644;
+  
+   z-index: 1000; 
+   width: 100%;
+
 }
+header a{
+
+   text-decoration: none ;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   color: rgb(255, 255, 255);
+   text-shadow: 2px 1px 2px black;
+   font-size: 20px;
+   font-weight: 600;
+   
+}
+header #cabeza1:hover{
+  border-bottom: solid rgb(240, 101, 20) 8px ;
+  background-color: #102e6d;
+   
+}
+header #cabeza2:hover{
+
+  border-bottom: solid rgb(240, 101, 20) 8px ;
+  background-color: #102e6d;
+  
+}
+header #cabeza3:hover{
+
+  border-bottom: solid rgb(240, 101, 20) 8px ;
+  background-color: #102e6d;
+  
+}
+
+
+ header div{
+   
+  position: absolute;
+  
+  text-align: center;
+  margin: 0;
+
+
+ }
+
+ #cabeza1{
+   padding-top: 20px;
+   top:0%;
+   left: 49%;
+   bottom: 0%;
+   right: 30%;
+  width: 200px;
+  margin: 0;
+ 
+   
+ }
+ #cabeza2{
+   
+   padding-top:  20px;
+   margin: 0;
+   top:0;
+   left: 63%;
+   bottom: 0;
+   right: 0;
+   right: 30%;
+   width: 200px;
+   
+ }
+
+ #cabeza3{
+   
+   padding-top:  20px;
+   margin: 0;
+   top:0;
+   left: 78%;
+   bottom: 0;
+   right: 0;
+   right: 30%;
+   width: 200px;
+    
+ }
+    
+ #boton{
+   position: absolute;
+   top:60%;
+   left:64%;
+   bottom: 0%;
+   right: 13%;
+   padding-bottom: 0%;
+  height: 39px;
+  border-radius:  14px;
+  background-color: #C19A09;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding-top: 10px;
+  text-decoration: none;
+  color: black;
+ }
+ #boton:hover{
+  background-color: rgb(126, 117, 117);
+  text-decoration: none;
+  
+
+ }
+
